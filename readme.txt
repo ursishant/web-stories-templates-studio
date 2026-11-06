@@ -62,6 +62,13 @@ Yes! All templates follow Google's full-bleed background and centered safe-zone 
 = What image sizes should I use when replacing backgrounds? =
 We recommend 1080 × 1920 pixels (9:16 aspect ratio) portrait images in WebP or JPEG format, compressed to under 300 KB each for lightning-fast page loading.
 
+== Screenshots ==
+
+1. Template Studio: Curated catalog of 500+ templates with instant fuzzy search, 100+ category filters, 1-click favorites, and default template badges.
+2. Interactive Phone Simulator: Realistic 9:16 mobile preview with strict safe zone visual overlays (220px top / 250px bottom).
+3. Typography & Brand Customizer: Full curated Google Fonts library, fluid headline sizing slider, and 1-click color harmony.
+4. Auto-Create Story Distiller: 1-click distillation from any WordPress blog post into a high-retention 4-slide AMP Web Story.
+
 == Changelog ==
 
 = 1.3.4 =

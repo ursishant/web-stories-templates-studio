@@ -9,7 +9,11 @@
 [![PHP](https://img.shields.io/badge/PHP-7.4%2B-777bb4.svg?style=flat-square&logo=php)](https://www.php.net)
 [![AMP Valid](https://img.shields.io/badge/Google%20Web%20Stories-100%25%20AMP%20Valid-00d084.svg?style=flat-square)](https://amp.dev/about/stories/)
 [![License](https://img.shields.io/badge/License-GPLv2-blue.svg?style=flat-square)](LICENSE)
-[![Templates](https://img.shields.io/badge/Templates-500%2B%20Across%20100%2B%20Categories-ff6b6b.svg?style=flat-square)](#-template-library)
+[![Templates](https://img.shields.io/badge/Templates-500%2B%20Across%20100%2B%20Categories-ff6b6b.svg?style=flat-square)](#-template-categories)
+
+<br>
+
+<img src="assets/screenshot-1.png" alt="Web Stories Templates Studio Catalog" width="100%">
 
 </div>
 
@@ -20,6 +24,36 @@
 **Web Stories Templates Studio** provides a massive catalog of **500+ high-retention visual templates** engineered specifically for **Google Web Stories on WordPress**. Every template is built with 5 unique design archetypes per category across 100+ niches (Crypto, AI & Robotics, Haute Cuisine, Fitness, Luxury Lifestyle, Travel, Streetwear, Gaming, and more).
 
 Unlike generic story builders that place critical text underneath browser navigation bars or swipe-up banners, **Web Stories Templates Studio** enforces Google's official design bounds and safe zones by default — guaranteeing your headlines, badges, and CTAs render with zero clipping across every iOS and Android device.
+
+---
+
+## 📸 Visual Tour & Screenshots
+
+### 1. Template Studio & 500+ Curated Catalog
+> Instant fuzzy search, 100+ category filters, 1-click favorites, and active default template management.
+
+![Template Studio Catalog](assets/screenshot-1.png)
+
+---
+
+### 2. Live Phone Simulator & Safe Zone Visual Inspector
+> Real-time 9:16 mobile mockup enforcing Google Web Stories 220px top boundary (clearing header UI) and 250px bottom boundary (clearing swipe-up CTAs).
+
+![Live Phone Simulator & Safe Zone Inspector](assets/screenshot-2.png)
+
+---
+
+### 3. Story Typography, Branding & Color Harmonizer
+> Full Google Fonts library, fluid optical font size sliders, and 1-click palette synchronization across all slides.
+
+![Unified Story Typography](assets/screenshot-3.png)
+
+---
+
+### 4. 1-Click Blog-to-Story Distiller
+> Distill any published WordPress article into a high-retention 4-slide AMP Web Story with key takeaways and swipe-up attribution outlink.
+
+![Auto-Create Story from Blog Post](assets/screenshot-4.png)
 
 ---
 
@@ -108,8 +142,12 @@ web-stories-templates/
 │   ├── images/
 │   │   ├── default-logo.png       # Fallback publisher monograms
 │   │   └── default-logo.svg
-│   └── js/
-│       └── admin-studio.js        # Interactive studio logic & AJAX handlers
+│   ├── js/
+│   │   └── admin-studio.js        # Interactive studio logic & AJAX handlers
+│   ├── screenshot-1.png           # Template Studio Catalog
+│   ├── screenshot-2.png           # Live Phone Simulator & Safe Zone Inspector
+│   ├── screenshot-3.png           # Typography Studio & Brand Harmonizer
+│   └── screenshot-4.png           # Auto-Create Story from Blog Post Distiller
 ├── includes/
 │   ├── class-admin-studio.php     # WordPress admin page & views
 │   ├── class-ajax-handler.php     # AJAX endpoints (save, favorite, distill)
