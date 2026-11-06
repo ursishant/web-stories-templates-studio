@@ -5,6 +5,7 @@
 **Curated, high-retention 9:16 templates engineered with strict safe zones for Google Web Stories on WordPress.**
 
 [![Latest Release](https://img.shields.io/badge/release-v1.3.6-6366f1.svg?style=flat-square)](https://github.com/ursishant/web-stories-templates-studio/releases)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-00f2fe.svg?style=flat-square&logo=github)](https://ursishant.github.io/web-stories-templates-studio/)
 [![WordPress](https://img.shields.io/badge/WordPress-5.8%2B-21759b.svg?style=flat-square&logo=wordpress)](https://wordpress.org)
 [![PHP](https://img.shields.io/badge/PHP-7.4%2B-777bb4.svg?style=flat-square&logo=php)](https://www.php.net)
 [![AMP Valid](https://img.shields.io/badge/Google%20Web%20Stories-100%25%20AMP%20Valid-00d084.svg?style=flat-square)](https://amp.dev/about/stories/)

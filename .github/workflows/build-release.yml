@@ -19,7 +19,7 @@ jobs:
       - name: Build Distribution Archive
         run: |
           mkdir -p dist/web-stories-templates
-          rsync -av --exclude='.git*' --exclude='dist' --exclude='.github' ./ dist/web-stories-templates/
+          rsync -av --exclude='.git*' --exclude='dist' --exclude='.github' --exclude='docs' ./ dist/web-stories-templates/
           cd dist
           zip -r ../web-stories-templates.zip web-stories-templates
           cd ..
@@ -32,3 +32,4 @@ jobs:
           draft: false
           prerelease: false
           generate_release_notes: true
+
