@@ -1786,8 +1786,8 @@ a {
 /* Studio Two-Column Layout */
 .studio-interactive-grid {
   display: grid;
-  grid-template-columns: 1fr 320px;
-  gap: 40px;
+  grid-template-columns: 1fr 340px;
+  gap: 48px;
   align-items: center;
 }
 
@@ -3401,15 +3401,21 @@ a {
   perspective: 1200px;
   position: relative;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
 .iphone-titanium {
   position: relative;
   z-index: 10;
   width: 320px;
+  min-width: 320px;
+  max-width: 320px;
   height: 640px;
+  flex-shrink: 0;
+  box-sizing: border-box;
   background: #ffffff;
   border-radius: 48px;
   padding: 10px;
