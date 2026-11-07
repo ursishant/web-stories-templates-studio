@@ -3,605 +3,1134 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Web Stories Templates Studio — Modern Templates for Google Web Stories</title>
-  <meta name="description" content="Sick, high-retention 9:16 templates engineered with strict safe zones for Google Web Stories on WordPress. 100% AMP compliant.">
+  <title>Google Web Stories Templates for WordPress | High-Retention Discover Plugin</title>
+  <meta name="description" content="Free WordPress plugin with 500+ curated 9:16 templates engineered with strict Google Discover safe zones. 1-click blog-to-story conversion, 100% AMP valid, and zero dependencies.">
+  <meta name="keywords" content="Google Web Stories, WordPress Web Stories plugin, Web Stories templates, Google Discover traffic, AMP stories, WordPress SEO plugin, blog to story converter, Web Stories safe zones">
+  <link rel="canonical" href="https://ursishant.github.io/web-stories-templates-studio/">
+
+  <!-- OpenGraph / Social Metadata (Animated GIF + MP4 + Static Fallback) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Web Stories Templates Studio">
+  <meta property="og:title" content="Google Web Stories Templates for WordPress | High-Retention Discover Plugin">
+  <meta property="og:description" content="Free WordPress plugin with 500+ curated 9:16 templates engineered with strict Google Discover safe zones. 1-click blog-to-story conversion, 100% AMP valid, and zero dependencies.">
+  <meta property="og:url" content="https://ursishant.github.io/web-stories-templates-studio/">
+  <meta property="og:image" content="https://ursishant.github.io/web-stories-templates-studio/assets/og-image.gif">
+  <meta property="og:image:secure_url" content="https://ursishant.github.io/web-stories-templates-studio/assets/og-image.gif">
+  <meta property="og:image:type" content="image/gif">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Web Stories Templates Studio - Real-Time Simulator & Safe Zones">
+
+  <!-- OpenGraph Video (Telegram, Discord, Slack, iMessage) -->
+  <meta property="og:video" content="https://ursishant.github.io/web-stories-templates-studio/assets/og-video.mp4">
+  <meta property="og:video:secure_url" content="https://ursishant.github.io/web-stories-templates-studio/assets/og-video.mp4">
+  <meta property="og:video:type" content="video/mp4">
+  <meta property="og:video:width" content="1200">
+  <meta property="og:video:height" content="630">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Google Web Stories Templates for WordPress | High-Retention Discover Plugin">
+  <meta name="twitter:description" content="Free WordPress plugin with 500+ curated 9:16 templates engineered with strict Google Discover safe zones. 1-click blog-to-story conversion, 100% AMP valid, and zero dependencies.">
+  <meta name="twitter:image" content="https://ursishant.github.io/web-stories-templates-studio/assets/og-image.gif">
+  <meta name="twitter:player" content="https://ursishant.github.io/web-stories-templates-studio/assets/og-video.mp4">
+  <meta name="twitter:player:width" content="1200">
+  <meta name="twitter:player:height" content="630">
+
   <link rel="icon" type="image/svg+xml" href="assets/default-logo.svg">
 
-  <!-- Google Fonts -->
+  <!-- Google Fonts: Geist & Geist Mono (Vidyst-inspired ultra-clean modern typography) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700;800&family=Geist+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="styles.css">
+
+  <!-- SEO & JSON-LD Structured Data Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://ursishant.github.io/web-stories-templates-studio/#software",
+        "name": "Web Stories Templates Studio for WordPress",
+        "url": "https://ursishant.github.io/web-stories-templates-studio/",
+        "image": "https://ursishant.github.io/web-stories-templates-studio/assets/og-image.png",
+        "description": "500+ curated 9:16 templates engineered with strict optical safe zones for Google Web Stories on WordPress. 100% AMP compliant with 1-click blog-to-story distillation.",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "WordPress 5.8+, PHP 7.4+",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "author": [
+          {
+            "@type": "Organization",
+            "name": "pennion",
+            "url": "https://pennion.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Ishant Sharma (ursishant)",
+            "url": "https://github.com/ursishant"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://ursishant.github.io/web-stories-templates-studio/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do Google Web Stories increase traffic from Google Discover?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Google Web Stories appear in dedicated high-visibility carousels across Google Discover feeds, mobile search results, and Google Images. Because they load instantly via the AMP framework and feature tap-friendly visual slides, Google prioritizes them for mobile readers, unlocking massive organic reach without ad spend."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are Web Story safe zones and why are they critical for compliance?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Google's Web Stories player overlays native UI elements on top of each story: the top 220px holds the progress bar, publisher logo, and close buttons, while the bottom 250px holds swipe-up CTA links and gesture navigation. Our templates strictly confine headings, readable text, and tap targets to the central safe viewport, preventing Google Discover penalties and UI clipping."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I convert existing WordPress blog articles into Web Stories?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Web Stories Templates Studio features a 1-Click Blog Distiller that scans any published WordPress post, extracts key headings, summarizes core points into a 4-slide visual narrative, selects vertical imagery, and generates a canonical swipe-up outlink back to your original article."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does this plugin require Google's official Web Stories editor?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. The plugin operates in dual mode: you can create, customize, and publish 100% AMP-valid stories directly inside the lightweight Studio interface with zero dependencies, or link seamlessly with Google's official Web Stories React editor for granular layer control."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are the generated Web Stories 100% AMP compliant and Core Web Vitals optimized?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Every template generates clean, valid AMP HTML that passes Google's AMP Test with zero JavaScript errors, zero layout shifts (CLS 0), and instant paint times (LCP < 1.2s), ensuring full eligibility for Google search indexing."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I monetize Web Stories with Google AdSense or affiliate links?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The plugin includes native support for Google AdSense auto-story ads (ca-pub configuration), custom outlink swipe-up call-to-actions on every slide, and Google Analytics / GA4 tracking tags."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
-  <div class="ambient-glow"></div>
-  <div class="ambient-glow-bottom"></div>
+  <!-- Ambient Morphing Liquid Canvas -->
+  <div class="liquid-mesh-canvas" id="liquidMeshCanvas" aria-hidden="true">
+    <div class="liquid-orb liquid-orb-blue" id="orbBlue"></div>
+    <div class="liquid-orb liquid-orb-purple" id="orbPurple"></div>
+    <div class="liquid-orb liquid-orb-cyan" id="orbCyan"></div>
+  </div>
 
-  <!-- Navigation Bar -->
-  <header class="site-nav">
-    <div class="container nav-container">
-      <a href="#" class="brand-logo">
-        <div class="brand-icon-badge">⚡</div>
-        <span>Web Stories Studio</span>
-        <span class="brand-pill">v1.3.6</span>
+  <div class="ambient-top"></div>
+
+  <!-- Apple Translucent Frosted Glass Nav with Dynamic Island Morphing -->
+  <header class="site-nav" id="siteNav">
+    <div class="container nav-inner">
+      <a href="#" class="brand-box" id="brandLogoLink" aria-label="Web Stories Studio - Back to Home">
+        <img src="assets/default-logo.svg" alt="Web Stories Studio Logo" class="brand-logo-img">
+        <span class="brand-title">Web Stories Studio</span>
+        <span class="version-pill">v1.3.6</span>
       </a>
 
-      <nav>
-        <ul class="nav-links">
-          <li><a href="#live-simulator" class="nav-link">Live Simulator</a></li>
-          <li><a href="#templates" class="nav-link">500+ Templates</a></li>
-          <li><a href="#safe-zones" class="nav-link">Safe Zones</a></li>
-          <li><a href="#features" class="nav-link">Features</a></li>
-          <li><a href="#install" class="nav-link">Install</a></li>
-        </ul>
+      <nav class="nav-links">
+        <a href="#studio" class="nav-link">Studio Lab</a>
+        <a href="#safe-zones" class="nav-link">Safe Zones</a>
+        <a href="#lookbook" class="nav-link">500+ Lookbook</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+        <a href="#install" class="nav-link">Install</a>
       </nav>
 
       <div class="nav-actions">
-        <a href="https://github.com/ursishant/web-stories-templates-studio" target="_blank" rel="noopener" class="btn-github">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+        <a href="https://github.com/ursishant/web-stories-templates-studio/releases/download/v1.3.6/web-stories-templates.zip" class="btn-apple-primary">
+          <span>Download Free</span>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <button type="button" class="btn-mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="4" y1="6" x2="20" y2="6"/>
+            <line x1="4" y1="12" x2="20" y2="12"/>
+            <line x1="4" y1="18" x2="20" y2="18"/>
           </svg>
-          <span>Star Repo</span>
-        </a>
-        <a href="https://github.com/ursishant/web-stories-templates-studio/releases/tag/v1.3.6" target="_blank" rel="noopener" class="btn-primary">
-          <span>Get Plugin</span>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-        </a>
+        </button>
       </div>
+    </div>
+
+    <!-- Mobile Slide-Down Navigation Sheet -->
+    <div class="mobile-nav-menu" id="mobileNavMenu">
+      <a href="#studio" class="mobile-nav-link">Studio Lab</a>
+      <a href="#safe-zones" class="mobile-nav-link">Safe Zones</a>
+      <a href="#lookbook" class="mobile-nav-link">500+ Lookbook</a>
+      <a href="#faq" class="mobile-nav-link">FAQ</a>
+      <a href="#install" class="mobile-nav-link">Install</a>
+      <div class="mobile-menu-divider" aria-hidden="true"></div>
+      <a href="https://github.com/ursishant/web-stories-templates-studio/releases/download/v1.3.6/web-stories-templates.zip" class="btn-vidyst-dark mobile-menu-cta">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+        <span>Download Plugin (.ZIP)</span>
+      </a>
     </div>
   </header>
 
-  <!-- Hero Section -->
+  <!-- Mobile Slide-Down Navigation Backdrop Overlay -->
+  <div class="mobile-nav-backdrop" id="mobileNavBackdrop" aria-hidden="true"></div>
+
+  <!-- Hero Section: Vidyst-Inspired Modern Minimalist Typography & Rotating Platform Stage -->
   <section class="hero-section">
-    <div class="container">
-      <div class="hero-pill">
-        <span class="pulse-dot"></span>
-        <span>Open Source Release &bull; 100% AMP Spec Compliant</span>
-      </div>
-
-      <h1 class="hero-title">
-        High-Retention Templates for <br>
-        <span class="hero-gradient-text">Google Web Stories on WordPress</span>
-      </h1>
-
-      <p class="hero-description">
-        Eradicate boring stories. Over 500+ handcrafted 9:16 templates engineered with strict safe zones, liquid microinteractions, and 1-click blog-to-story conversion.
-      </p>
-
-      <div class="hero-cta-group">
-        <a href="https://github.com/ursishant/web-stories-templates-studio/releases/download/v1.3.6/web-stories-templates.zip" class="btn-primary btn-lg">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
-          <span>Download Plugin v1.3.6 (ZIP)</span>
-        </a>
-        <a href="#live-simulator" class="btn-secondary btn-lg">
-          <span>Test Live Simulator</span>
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-        </a>
-      </div>
-
-      <!-- Stats Ribbon -->
-      <div class="stats-ribbon">
-        <div class="stat-item">
-          <div class="stat-number">500+</div>
-          <div class="stat-label">Templates Catalog</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-number">100+</div>
-          <div class="stat-label">Niche Categories</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-number">100%</div>
-          <div class="stat-label">Safe Zone Guarded</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-number">GPLv2</div>
-          <div class="stat-label">Open Source & Free</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Interactive Live Simulator Section -->
-  <section class="simulator-section" id="live-simulator">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-tag">Interactive Experience</span>
-        <h2 class="section-title">Test Drive the Story Simulator</h2>
-        <p>Tap left or right on the smartphone screen to flip slides. Toggle Google's official safe zone guide to verify zero UI collisions.</p>
-      </div>
-
-      <div class="simulator-workspace">
-        <!-- Controls Panel -->
-        <div class="controls-panel">
-          <!-- Safe Zone Control -->
-          <div class="control-card">
-            <div class="control-card-header">
-              <span class="control-card-title">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00f2fe" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-                Google Safe Zone Visual Inspector
+    <div class="container hero-container">
+      <div class="hero-header">
+        <h1 class="hero-headline vidyst-hero-headline">
+          <span class="blur-reveal-line title-line-1">Stories that go live on</span>
+          <span class="blur-reveal-line title-line-2 vidyst-rotator-wrap">
+            <span class="vidyst-rotator-item active" data-index="0" aria-label="Google Discover">
+              <span class="rotator-badge-icon badge-discover">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm2.19 12.19L6 18l3.81-8.19L18 6l-3.81 8.19z" fill="#0071e3"/><circle cx="12" cy="12" r="2.2" fill="#ff2d55"/></svg>
               </span>
-              <label class="switch-label">
-                <input type="checkbox" id="safeZoneToggle" class="switch-input">
-                <span class="switch-track"></span>
-                <span>Overlay Guides</span>
-              </label>
-            </div>
-            <p style="font-size: 12.5px; color: var(--text-dim);">
-              Highlights the 220px top boundary (progress bars, story header) and 250px bottom boundary (swipe-up CTA).
-            </p>
-          </div>
-
-          <!-- Template Preset Picker -->
-          <div class="control-card">
-            <div class="control-card-header">
-              <span class="control-card-title">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
-                Select Template Archetype
-              </span>
-            </div>
-            <div class="template-pills-grid">
-              <button type="button" class="tpl-btn is-active" data-tpl="tech">
-                <span class="tpl-dot" style="background: #00f2fe;"></span>
-                <span>Tech & Silicon</span>
-              </button>
-              <button type="button" class="tpl-btn" data-tpl="fashion">
-                <span class="tpl-dot" style="background: #d4af37;"></span>
-                <span>Fashion & Luxury</span>
-              </button>
-              <button type="button" class="tpl-btn" data-tpl="viral">
-                <span class="tpl-dot" style="background: #ec4899;"></span>
-                <span>Viral & Creators</span>
-              </button>
-              <button type="button" class="tpl-btn" data-tpl="food">
-                <span class="tpl-dot" style="background: #f59e0b;"></span>
-                <span>Food & Recipes</span>
-              </button>
-              <button type="button" class="tpl-btn" data-tpl="fitness">
-                <span class="tpl-dot" style="background: #10b981;"></span>
-                <span>Health & Fitness</span>
-              </button>
-              <button type="button" class="tpl-btn" data-tpl="travel">
-                <span class="tpl-dot" style="background: #38bdf8;"></span>
-                <span>Travel & Adventure</span>
-              </button>
-            </div>
-          </div>
-
-          <!-- Live Font & Accent Controls -->
-          <div class="control-card">
-            <span class="control-card-title" style="margin-bottom: 12px;">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2.5"><polyline points="4 7 4 4 20 4 20 7"/><line x1="9" y1="20" x2="15" y2="20"/><line x1="12" y1="4" x2="12" y2="20"/></svg>
-              Live Typography Harmonizer
+              <span class="rotator-label">Google Discover</span>
             </span>
-            <div class="option-row">
-              <button type="button" class="font-btn is-active" data-font="'Space Grotesk', sans-serif">Space Grotesk</button>
-              <button type="button" class="font-btn" data-font="'Playfair Display', serif">Playfair Serif</button>
-              <button type="button" class="font-btn" data-font="'Montserrat', sans-serif">Montserrat</button>
-              <button type="button" class="font-btn" data-font="'Inter', sans-serif">Inter Crisp</button>
-            </div>
+            <span class="vidyst-rotator-item" data-index="1" aria-label="Google Search">
+              <span class="rotator-badge-icon badge-search">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+              </span>
+              <span class="rotator-label">Google Search</span>
+            </span>
+            <span class="vidyst-rotator-item" data-index="2" aria-label="9:16 Stories">
+              <span class="rotator-badge-icon badge-stories">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="3"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+              </span>
+              <span class="rotator-label">9:16 Stories</span>
+            </span>
+            <span class="vidyst-rotator-item" data-index="3" aria-label="Google Images">
+              <span class="rotator-badge-icon badge-images">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+              </span>
+              <span class="rotator-label">Google Images</span>
+            </span>
+          </span>
+          <span class="blur-reveal-line title-line-3 vidyst-gradient-text">and stop the scroll.</span>
+        </h1>
 
-            <div style="margin-top: 18px; display:flex; align-items:center; justify-content:space-between;">
-              <span style="font-size: 13px; font-weight: 600; color: #ffffff;">Quick Accent Color</span>
-              <div class="color-swatch-picker">
-                <button type="button" class="color-dot-btn is-active" style="background: #00f2fe; color: #00f2fe;" data-color="#00f2fe"></button>
-                <button type="button" class="color-dot-btn" style="background: #d4af37; color: #d4af37;" data-color="#d4af37"></button>
-                <button type="button" class="color-dot-btn" style="background: #ec4899; color: #ec4899;" data-color="#ec4899"></button>
-                <button type="button" class="color-dot-btn" style="background: #f59e0b; color: #f59e0b;" data-color="#f59e0b"></button>
-                <button type="button" class="color-dot-btn" style="background: #10b981; color: #10b981;" data-color="#10b981"></button>
-              </div>
+        <p class="hero-subhead blur-reveal-sub">
+          Transform articles into high-retention 9:16 visual stories engineered for Google Discover.
+        </p>
+
+        <div class="hero-cta-group blur-reveal-cta">
+          <div class="hero-cta-buttons">
+            <a href="https://github.com/ursishant/web-stories-templates-studio/releases/download/v1.3.6/web-stories-templates.zip" class="btn-vidyst-dark">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+              <span>Download for WordPress (v1.3.6)</span>
+            </a>
+            <a href="https://github.com/ursishant/web-stories-templates-studio" target="_blank" rel="noopener" class="btn-vidyst-subtle hero-star-desktop">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+              </svg>
+              <span>Star on GitHub</span>
+              <span class="star-badge-count" id="ghStarCountDesktop">★ 1</span>
+            </a>
+          </div>
+          <a href="https://github.com/ursishant/web-stories-templates-studio" target="_blank" rel="noopener" class="hero-star-mobile-link">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+            </svg>
+            <span>Star on GitHub</span>
+            <span class="mobile-star-badge" id="ghStarCountMobile">★ 1</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Separation Bridge: Separates Home from 2nd Menu / Studio -->
+  <div class="section-divider-wrap" aria-hidden="true">
+    <a href="#studio" class="divider-chip" aria-label="Explore Interactive Studio Lab">
+      <span class="divider-pulse-dot"></span>
+      <span class="divider-chip-label">Interactive Studio Lab</span>
+      <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 10l5 5 5-5"/></svg>
+    </a>
+  </div>
+
+  <!-- Studio Lab Section: Apple Segmented Experience -->
+  <section class="studio-section" id="studio">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-eyebrow">INTERACTIVE STUDIO LAB</span>
+        <h2 class="section-headline">Real-Time 9:16 Story Simulator <span class="vidyst-gradient-text">&amp; Safe Zones</span></h2>
+        <p style="font-size: 16px; max-width: 680px; margin: 0 auto;">
+          Preview how mobile typography scales, automated contrast filters adapt, and Google UI safe-zone boundaries align before publishing your story to WordPress.
+        </p>
+      </div>
+
+      <div class="studio-card-box">
+        <!-- Gooey Spring Tab Navigation -->
+        <div class="gooey-nav-wrap">
+          <div class="gooey-ambient" id="studioAmbient"></div>
+          <div class="gooey-shell" id="studioTabShell">
+            <div class="gooey-liquid" aria-hidden="true">
+              <div class="gooey-indicator" id="studioIndicator"></div>
+            </div>
+            <canvas class="gooey-pixel-layer" id="studioPixelCanvas" aria-hidden="true"></canvas>
+            <div class="gooey-tabs" role="tablist" aria-label="Studio Archetypes">
+              <button class="gooey-tab active" role="tab" aria-selected="true" tabindex="0" data-archetype="tech">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="4" y="4" width="16" height="16" rx="2"/>
+                  <rect x="9" y="9" width="6" height="6"/>
+                  <path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3"/>
+                </svg>
+                <span>Tech</span>
+              </button>
+              <button class="gooey-tab" role="tab" aria-selected="false" tabindex="-1" data-archetype="fashion">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M6 3h12l4 6-10 12L2 9z"/>
+                  <path d="M11 3 8 9l4 12 4-12-3-6M2 9h20"/>
+                </svg>
+                <span>Fashion</span>
+              </button>
+              <button class="gooey-tab" role="tab" aria-selected="false" tabindex="-1" data-archetype="viral">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/>
+                </svg>
+                <span>Creators</span>
+              </button>
+              <button class="gooey-tab" role="tab" aria-selected="false" tabindex="-1" data-archetype="food">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 8h1a4 4 0 0 1 0 8h-1M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8zM6 1v3M10 1v3M14 1v3"/>
+                </svg>
+                <span>Culinary</span>
+              </button>
+              <button class="gooey-tab" role="tab" aria-selected="false" tabindex="-1" data-archetype="fitness">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                </svg>
+                <span>Fitness</span>
+              </button>
+              <button class="gooey-tab" role="tab" aria-selected="false" tabindex="-1" data-archetype="travel">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="m8 3 4 8 5-5 5 15H2L8 3z"/>
+                </svg>
+                <span>Expeditions</span>
+              </button>
             </div>
           </div>
         </div>
 
-        <!-- Phone Mockup -->
-        <div class="phone-mockup-wrapper">
-          <div class="phone-mockup">
-            <div class="phone-island"></div>
-
-            <div class="phone-screen" id="phoneScreen">
-              <div class="screen-scrim"></div>
-
-              <!-- Safe Zone Guide Overlay -->
-              <div class="safe-zone-overlay" id="safeZoneOverlay">
-                <div class="sz-top">220PX TOP SAFE ZONE &bull; CLEARS PROGRESS & HEADER</div>
-                <div class="sz-bottom">250PX BOTTOM SAFE ZONE &bull; CLEARS SWIPE-UP CTA</div>
+        <!-- Studio Options Toolbar -->
+        <div class="studio-options-bar">
+          <div class="studio-safezone-control">
+            <div class="safezone-control-text">
+              <div class="safezone-title-wrap">
+                <span class="safezone-icon-badge">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#0071e3" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                </span>
+                <span class="safezone-title">Google Safe Zone Bounds</span>
               </div>
+              <span class="safezone-subtext">220px Top &bull; 250px Bottom Bounds</span>
+            </div>
+            <label class="ios-switch" aria-label="Toggle Google Safe Zone Bounds">
+              <input type="checkbox" id="studioLaserSwitch">
+              <span class="ios-slider"></span>
+            </label>
+          </div>
 
-              <!-- Top Story Bar -->
-              <div class="story-progress-bar">
-                <div class="progress-segment active"><div class="progress-fill"></div></div>
-                <div class="progress-segment"><div class="progress-fill"></div></div>
-                <div class="progress-segment"><div class="progress-fill"></div></div>
-                <div class="progress-segment"><div class="progress-fill"></div></div>
+          <div class="studio-options-divider" aria-hidden="true"></div>
+
+          <div class="studio-typography-control">
+            <div class="typography-control-header">
+              <span class="typography-control-label">Headline Typography</span>
+              <span class="typography-control-count">4 Curated Scales</span>
+            </div>
+            <div class="font-capsules">
+              <button type="button" class="font-capsule is-active" data-font="'Space Grotesk', sans-serif">Space Grotesk</button>
+              <button type="button" class="font-capsule" data-font="'Playfair Display', serif">Playfair Serif</button>
+              <button type="button" class="font-capsule" data-font="'Plus Jakarta Sans', sans-serif">Jakarta Sans</button>
+              <button type="button" class="font-capsule" data-font="'Inter', sans-serif">Inter Crisp</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Studio Interactive Grid -->
+        <div class="studio-interactive-grid">
+          <div>
+            <div style="font-family:var(--font-mono); font-size:11.5px; font-weight:700; color:var(--accent-apple); letter-spacing:0.08em; margin-bottom:10px;" id="studioMetaSubtitle">
+              SPECIFICATION // TECH &amp; SILICON
+            </div>
+            <h3 style="font-size: clamp(26px, 3.2vw, 36px); margin-bottom: 14px;" id="studioArchetypeTitle">
+              Sub-Atomic Computing Horizons
+            </h3>
+            <p style="font-size: 15.5px; line-height: 1.65; margin-bottom: 24px;" id="studioArchetypeDesc">
+              Engineered with high-contrast obsidian backgrounds, electric blue accents, and zero text crowding. Built specifically for technology publishers breaking complex hardware narratives.
+            </p>
+
+            <div class="spec-metrics-row">
+              <div class="spec-metric-item">
+                <div class="metric-title">Primary Tone</div>
+                <div class="metric-number" style="color: #0071e3;" id="studioColorHex">#0071E3</div>
               </div>
-
-              <div class="story-pub-header">
-                <div class="pub-avatar" id="pubAvatar">SF</div>
-                <span class="pub-name" id="pubName">Silicon Frontier Media</span>
+              <div class="spec-metric-item">
+                <div class="metric-title">Headline Scale</div>
+                <div class="metric-number" id="studioFontScale">32px Space Grotesk</div>
               </div>
-
-              <!-- Slide Narrative -->
-              <div class="story-content">
-                <span class="story-badge" id="storyBadge">DEEP TECH // 2026</span>
-                <h3 class="story-heading" id="storyHeading">Sub-1nm Quantum Processors Now Reality</h3>
-                <p class="story-body" id="storyBody">
-                  Researchers have achieved room-temperature quantum coherence on silicon lattices, paving the way for 100x efficiency gains.
-                </p>
-                <div class="story-cta" id="storyCta">
-                  <span>Explore Architecture</span>
-                  <span>&rarr;</span>
-                </div>
+              <div class="spec-metric-item">
+                <div class="metric-title">AMP Compliance</div>
+                <div class="metric-number" style="color: #34c759;">100% Passed</div>
               </div>
             </div>
 
-            <div class="nav-hint">Tap left or right side of phone to flip slides</div>
+            <div style="display:flex; gap:12px; flex-wrap:wrap; align-items:center;">
+              <button type="button" class="btn-vidyst-dark" id="btnNextStudioSlide" style="padding: 12px 22px; font-size: 14px;">
+                <span>Flip Next Slide</span>
+                <span>&rarr;</span>
+              </button>
+              <button type="button" class="btn-vidyst-dark" id="btnLaunchImmersive" style="padding: 12px 20px; font-size: 14px;">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                <span>Fullscreen 9:16 Experience</span>
+              </button>
+              <a href="#lookbook" class="btn-hero-subtle" style="padding: 12px 20px; font-size: 14px;">
+                <span>Browse All 500+</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Studio Phone Stage -->
+          <div class="studio-phone-wrap" id="studioPhoneWrap">
+            <div class="iphone-titanium" id="studioIPhone" style="width: 310px; height: 620px; margin: 0 auto;">
+              <div class="liquid-phone-glare" id="studioPhoneGlare"></div>
+              <div class="iphone-screen" id="studioPhoneScreen" style="background: linear-gradient(160deg, #090d16 0%, #1e1b4b 45%, #0284c7 100%), url('https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=600&h=1000&fit=crop&q=80') center/cover; cursor: pointer;">
+                <div class="dynamic-island" style="width: 76px; height: 18px;"></div>
+                <div class="screen-scrim"></div>
+
+                <div class="safe-zone-laser" id="studioLaserGuide">
+                  <div class="sz-top-box">220PX TOP BUFFER</div>
+                  <div class="sz-bottom-box">250PX BOTTOM BUFFER</div>
+                </div>
+
+                <div class="story-bars-top" id="studioStoryBars">
+                  <div class="story-bar-segment" data-index="0"><div class="story-bar-fill"></div></div>
+                  <div class="story-bar-segment" data-index="1"><div class="story-bar-fill"></div></div>
+                  <div class="story-bar-segment" data-index="2"><div class="story-bar-fill"></div></div>
+                  <div class="story-bar-segment" data-index="3"><div class="story-bar-fill"></div></div>
+                </div>
+
+                <div class="story-pub-row">
+                  <img src="assets/default-logo.svg" alt="Publisher Logo" class="pub-logo-avatar">
+                  <span class="pub-title" id="studioPubTitle">Silicon Frontier Media</span>
+                </div>
+
+                <div class="story-body-stage">
+                  <span class="story-badge-pill" id="studioStoryBadge">DEEP TECH // 2026</span>
+                  <h3 class="story-headline-text" id="studioStoryHeading" style="font-size:20px;">Sub-1nm Quantum Processors Now Reality</h3>
+                  <p class="story-narrative-copy" id="studioStoryBody" style="font-size:12px;">
+                    Researchers achieve room-temperature quantum coherence on silicon lattices, unlocking 100x efficiency gains.
+                  </p>
+                  <div class="story-cta-capsule" id="studioStoryCta" style="font-size:11px; padding:6px 14px;">
+                    <span>Explore Architecture</span>
+                    <span>&rarr;</span>
+                  </div>
+                </div>
+
+                <!-- Story Pause Indicator -->
+                <div class="story-pause-pill" id="studioPauseIndicator">❚❚ PAUSED</div>
+
+                <!-- Interactive Left / Right Tap Zones -->
+                <div class="story-tap-zone left-tap" id="studioTapLeft" title="Previous Slide (Tap left side)"></div>
+                <div class="story-tap-zone right-tap" id="studioTapRight" title="Next Slide (Tap right side)"></div>
+              </div>
+            </div>
+            <div style="text-align:center; font-size:11.5px; color:var(--text-secondary); margin-top:12px;">
+              Tap sides to navigate &bull; Hold to pause &bull; 3D perspective tilt
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- 500+ Template Catalog Explorer -->
-  <section class="catalog-section" id="templates">
+  <!-- Bento Grid: The Engineering Behind Safe Zones -->
+  <section class="bento-section" id="safe-zones">
     <div class="container">
-      <div class="section-header">
-        <span class="section-tag">Massive Library</span>
-        <h2 class="section-title">Explore 500+ Templates Across 100+ Niches</h2>
-        <p>Every single category includes 5 unique, bespoke slide archetypes hand-crafted for high viewer retention and zero safe zone collision.</p>
+      <div class="section-head">
+        <span class="section-eyebrow">GOOGLE DISCOVER ARCHITECTURE</span>
+        <h2 class="section-headline">Why 90% of Web Stories <span class="vidyst-gradient-text">Fail Google Audits</span></h2>
+        <p style="font-size: 16px; max-width: 680px; margin: 0 auto;">
+          Google requires Web Stories at a 9:16 vertical ratio (1080&times;1920px). However, standard WordPress page builders ignore mobile screen chrome. Critical headlines get buried beneath system bars, and swipe-up CTAs get blocked by gesture navigation. Here is how our architecture guarantees full compliance.
+        </p>
       </div>
 
-      <!-- Search Input -->
-      <div class="catalog-search-wrap">
-        <div class="search-input-box">
-          <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-          <input type="text" id="catalogSearch" class="catalog-search-input" placeholder="Search templates (e.g. quantum, fashion, crypto, gourmet, fitness, coffee, travel)...">
+      <div class="bento-grid-wrap">
+        <!-- Bento 1: Strict Safe Zone Caliper -->
+        <div class="bento-surface col-8">
+          <div class="bento-icon" style="background: rgba(0, 113, 227, 0.1); color: #0071e3;">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21.3 8.7 8.7 21.3c-1 1-2.5 1-3.4 0l-2.6-2.6c-1-1-1-2.5 0-3.4L15.3 2.7c1-1 2.5-1 3.4 0l2.6 2.6c1 1 1 2.4 0 3.4Z"/><path d="m14.5 3.5 2 2"/><path d="m11.5 6.5 2 2"/><path d="m8.5 9.5 2 2"/><path d="m5.5 12.5 2 2"/></svg>
+          </div>
+          <h3 class="bento-heading">Strict Safe Zone Optical Bounds (220px Top &amp; 250px Bottom)</h3>
+          <p class="bento-desc">
+            Google Web Stories injects native system UI, including the progress bar, story title, publisher logo, and audio mute controls, into the top 220px. At the bottom, Google overlays swipe-up link attachments and native Android/iOS home indicators across 250px. Our templates strictly confine headings, readable text, and tap targets to the central safe viewport, preventing Google Discover penalties and UI clipping.
+          </p>
+
+          <div class="caliper-card">
+            <div class="caliper-zone">
+              <span>▲ TOP BUFFER: 220PX</span>
+              <span>CLEARS PROGRESS, MONOGRAM &amp; CLOSE BUTTON</span>
+            </div>
+            <div class="caliper-viewport">
+              SAFE READABLE VIEWPORT (Headlines, Body, Visual Assets, Focal Points)
+            </div>
+            <div class="caliper-zone" style="margin-bottom:0;">
+              <span>▼ BOTTOM BUFFER: 250PX</span>
+              <span>CLEARS SWIPE-UP CTA OUTLINK &amp; GESTURE BAR</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bento 2: 1-Click Blog Distiller -->
+        <div class="bento-surface col-4">
+          <div class="bento-icon" style="background: rgba(88, 86, 214, 0.1); color: #5856d6;">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          </div>
+          <h3 class="bento-heading">1-Click WordPress Article Distiller</h3>
+          <p class="bento-desc">
+            Turn 2,000-word WordPress blog posts into punchy 4-slide visual stories in under two seconds. Pennion's heuristic parser extracts your H2 subheadings, formats scannable summary text, selects featured vertical imagery, and anchors an automatic swipe-up canonical backlink.
+          </p>
+          <div class="distiller-box">
+            <button type="button" class="btn-distiller-sim" id="btnDistillerSim">
+              <span id="distillerIcon">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block; vertical-align:middle;"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+              </span>
+              <span id="distillerLabel">Simulate Article Conversion</span>
+            </button>
+            <div class="distiller-progress-track" id="distillerProgressTrack">
+              <div class="distiller-progress-fill" id="distillerFill"></div>
+            </div>
+            <div class="distiller-status-txt" id="distillerStatus">Click to distill 2,450 words into 4 AMP slides</div>
+          </div>
+        </div>
+
+        <!-- Bento 3: Google Fonts Library -->
+        <div class="bento-surface col-4">
+          <div class="bento-icon" style="background: rgba(255, 149, 0, 0.1); color: #ff9500;">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 7 4 4 20 4 20 7"/><line x1="9" y1="20" x2="15" y2="20"/><line x1="12" y1="4" x2="12" y2="20"/></svg>
+          </div>
+          <h3 class="bento-heading">60+ Curated Google Fonts with Auto-Contrast</h3>
+          <p class="bento-desc">
+            Pre-configured typography pairings optimized for mobile screens. Categorized into Modern Sans, Editorial Serif, Brutalist, and Technical Mono with optical size sliders (20px to 52px) and automated WCAG contrast checking against photography backgrounds.
+          </p>
+        </div>
+
+        <!-- Bento 4: Ambient Audio Studio -->
+        <div class="bento-surface col-4">
+          <div class="bento-icon" style="background: rgba(255, 45, 85, 0.1); color: #ff2d55;">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+          </div>
+          <h3 class="bento-heading">Ambient Audio &amp; Soundtrack Engine</h3>
+          <p class="bento-desc">
+            Increase story dwell time and reader retention with curated royalty-free audio loops (Lo-Fi Chill, Cinematic Pulse, Acoustic Morning) or upload your own MP3 soundtrack with live test player and automated mute-state handling.
+          </p>
+          <div class="audio-interactive-card" id="bentoAudioWidget">
+            <button type="button" class="btn-audio-play" id="btnAudioToggle" title="Play ambient audio preview">
+              <span id="audioPlayIcon">▶</span>
+            </button>
+            <div class="audio-waves" id="audioWaves">
+              <span class="wave-bar"></span>
+              <span class="wave-bar"></span>
+              <span class="wave-bar"></span>
+              <span class="wave-bar"></span>
+              <span class="wave-bar"></span>
+            </div>
+            <span class="audio-track-name" id="audioTrackName">Lo-Fi Discover Chill &bull; 120 BPM</span>
+          </div>
+        </div>
+
+        <!-- Bento 5: Zero Dependency Mode -->
+        <div class="bento-surface col-4">
+          <div class="bento-icon" style="background: rgba(52, 199, 89, 0.1); color: #34c759;">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+          </div>
+          <h3 class="bento-heading">Zero-Bloat Standalone Mode &amp; Editor Sync</h3>
+          <p class="bento-desc">
+            Runs completely standalone using native WordPress custom post types with zero third-party dependencies, or syncs seamlessly with Google's official Web Stories React editor for deep layer manipulation.
+          </p>
+        </div>
+
+        <!-- Bento 6: Embed Shortcode Player -->
+        <div class="bento-surface col-6">
+          <div class="bento-icon" style="background: rgba(0, 113, 227, 0.1); color: #0071e3;">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3 class="bento-heading">Universal Embed Shortcode Player</h3>
+          <p class="bento-desc">
+            Embed responsive interactive story cards and full-bleed player carousels directly into any WordPress post, page, or theme template with a single shortcode:
+          </p>
+          <div style="background: rgba(0, 0, 0, 0.04); border: 1px solid rgba(0, 0, 0, 0.08); padding: 10px 14px; border-radius: 10px; font-family: var(--font-mono); font-size: 13px; color: #0071e3; margin-top: 10px; display: inline-flex; align-items: center; gap: 8px;">
+            <span>[sick_web_story id="123" view="carousel"]</span>
+          </div>
+        </div>
+
+        <!-- Bento 7: Social Slices Exporter -->
+        <div class="bento-surface col-6">
+          <div class="bento-icon" style="background: rgba(175, 82, 222, 0.1); color: #af52de;">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          </div>
+          <h3 class="bento-heading">1080&times;1920 Social Story Slices Exporter</h3>
+          <p class="bento-desc">
+            Instantly render each AMP slide onto high-resolution offscreen canvas and export pixel-perfect PNG vertical graphics formatted for cross-posting to Instagram Stories, YouTube Shorts, and TikTok.
+          </p>
         </div>
       </div>
+    </div>
+  </section>
 
-      <!-- Category Filter Chips -->
-      <div class="filter-chips">
-        <button type="button" class="filter-chip is-active" data-cat="all">All Templates (511)</button>
-        <button type="button" class="filter-chip" data-cat="tech">Tech & Silicon</button>
-        <button type="button" class="filter-chip" data-cat="fashion">Fashion & Luxury</button>
-        <button type="button" class="filter-chip" data-cat="viral">Viral Creators</button>
-        <button type="button" class="filter-chip" data-cat="food">Food & Recipes</button>
-        <button type="button" class="filter-chip" data-cat="fitness">Health & Fitness</button>
-        <button type="button" class="filter-chip" data-cat="travel">Travel & Expeditions</button>
+  <!-- Lookbook Section: 500+ Curated Catalog -->
+  <section class="lookbook-section" id="lookbook">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-eyebrow">SEARCHABLE TEMPLATE CATALOG</span>
+        <h2 class="section-headline">Explore 500+ Curated <span class="vidyst-gradient-text">Web Story Templates</span></h2>
+        <p style="font-size: 16px; max-width: 680px; margin: 0 auto;">
+          Bespoke slide archetypes engineered for high mobile retention and automated Google Search indexing. Filter by industry or search by keyword to preview any design.
+        </p>
       </div>
 
-      <!-- Cards Grid -->
-      <div class="templates-grid">
+      <!-- Search Field -->
+      <div class="search-capsule-wrap">
+        <svg class="search-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" id="lookbookSearch" class="search-field-input" placeholder="Search 500+ templates & 100+ categories (e.g. tech, fashion, food, crypto, health)...">
+      </div>
+
+      <!-- Category Filter Pills -->
+      <div class="category-capsules" id="lookbookFilterTrack">
+        <button type="button" class="cat-capsule-btn is-active" data-cat="all">All Niches (511)</button>
+        <button type="button" class="cat-capsule-btn" data-cat="tech">Tech &amp; Silicon</button>
+        <button type="button" class="cat-capsule-btn" data-cat="fashion">Fashion &amp; Luxury</button>
+        <button type="button" class="cat-capsule-btn" data-cat="viral">Viral Creators</button>
+        <button type="button" class="cat-capsule-btn" data-cat="food">Food &amp; Recipes</button>
+        <button type="button" class="cat-capsule-btn" data-cat="fitness">Health &amp; Fitness</button>
+        <button type="button" class="cat-capsule-btn" data-cat="travel">Travel &amp; Expeditions</button>
+      </div>
+
+      <!-- Lookbook Cards Grid -->
+      <div class="lookbook-cards-grid" id="lookbookGrid">
         <!-- Card 1 -->
-        <div class="template-card" data-cat="tech" data-target-tpl="tech">
-          <div class="card-poster" style="background-image: url('https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=600&h=800&fit=crop');">
-            <div class="card-badges-row">
-              <span class="card-tag">TECH & SILICON</span>
-              <button type="button" class="card-fav-star is-fav" title="Favorite">
+        <div class="lookbook-item-card" data-cat="tech" data-archetype="tech">
+          <div class="card-cover-media" style="background-image: url('https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=600&h=800&fit=crop');">
+            <div class="btn-card-preview-hover"><span>⚡ Experience 9:16</span></div>
+            <div class="card-top-controls">
+              <span class="card-category-tag">TECH &amp; SILICON</span>
+              <button type="button" class="card-star-button is-fav" title="Favorite">
                 <svg width="13" height="13" viewBox="0 0 24 24" fill="#f59e0b" stroke="#f59e0b" stroke-width="2.2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
               </button>
             </div>
           </div>
-          <div class="card-body">
-            <div class="card-dots">
-              <span class="card-dot" style="background: #00f2fe;"></span>
-              <span class="card-dot" style="background: #3b82f6;"></span>
-              <span class="card-dot" style="background: #080811;"></span>
+          <div class="card-text-body">
+            <div class="card-palette-row">
+              <span class="palette-pip" style="background: #0071e3;"></span>
+              <span class="palette-pip" style="background: #5856d6;"></span>
+              <span class="palette-pip" style="background: #000000;"></span>
             </div>
-            <h4 class="card-title">Quantum Leap Silicon</h4>
-            <p class="card-tagline">Sub-Atomic Computing Horizons</p>
-            <button type="button" class="card-action-btn">Test in Simulator &rarr;</button>
+            <h4 class="card-main-title">Quantum Leap Silicon</h4>
+            <p class="card-sub-info">Sub-Atomic Computing Horizons &bull; 4 Slides</p>
+            <button type="button" class="btn-card-load" data-target-archetype="tech">Load in Studio &rarr;</button>
           </div>
         </div>
 
         <!-- Card 2 -->
-        <div class="template-card" data-cat="fashion" data-target-tpl="fashion">
-          <div class="card-poster" style="background-image: url('https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&h=800&fit=crop');">
-            <div class="card-badges-row">
-              <span class="card-tag">FASHION & LUXURY</span>
-              <button type="button" class="card-fav-star is-fav" title="Favorite">
+        <div class="lookbook-item-card" data-cat="fashion" data-archetype="fashion">
+          <div class="card-cover-media" style="background-image: url('https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&h=800&fit=crop');">
+            <div class="btn-card-preview-hover"><span>⚡ Experience 9:16</span></div>
+            <div class="card-top-controls">
+              <span class="card-category-tag">FASHION &amp; LUXURY</span>
+              <button type="button" class="card-star-button is-fav" title="Favorite">
                 <svg width="13" height="13" viewBox="0 0 24 24" fill="#f59e0b" stroke="#f59e0b" stroke-width="2.2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
               </button>
             </div>
           </div>
-          <div class="card-body">
-            <div class="card-dots">
-              <span class="card-dot" style="background: #d4af37;"></span>
-              <span class="card-dot" style="background: #fef3c7;"></span>
-              <span class="card-dot" style="background: #18181b;"></span>
+          <div class="card-text-body">
+            <div class="card-palette-row">
+              <span class="palette-pip" style="background: #d4af37;"></span>
+              <span class="palette-pip" style="background: #fef3c7;"></span>
+              <span class="palette-pip" style="background: #18181b;"></span>
             </div>
-            <h4 class="card-title">Haute Couture Atelier</h4>
-            <p class="card-tagline">Paris Fashion Week Runways</p>
-            <button type="button" class="card-action-btn">Test in Simulator &rarr;</button>
+            <h4 class="card-main-title">Haute Couture Atelier</h4>
+            <p class="card-sub-info">Paris Fashion Week Runways &bull; 4 Slides</p>
+            <button type="button" class="btn-card-load" data-target-archetype="fashion">Load in Studio &rarr;</button>
           </div>
         </div>
 
         <!-- Card 3 -->
-        <div class="template-card" data-cat="viral" data-target-tpl="viral">
-          <div class="card-poster" style="background-image: url('https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600&h=800&fit=crop');">
-            <div class="card-badges-row">
-              <span class="card-tag">VIRAL & CREATORS</span>
-              <button type="button" class="card-fav-star" title="Favorite">
+        <div class="lookbook-item-card" data-cat="viral" data-archetype="viral">
+          <div class="card-cover-media" style="background-image: url('https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600&h=800&fit=crop');">
+            <div class="btn-card-preview-hover"><span>⚡ Experience 9:16</span></div>
+            <div class="card-top-controls">
+              <span class="card-category-tag">VIRAL &amp; CREATORS</span>
+              <button type="button" class="card-star-button" title="Favorite">
                 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
               </button>
             </div>
           </div>
-          <div class="card-body">
-            <div class="card-dots">
-              <span class="card-dot" style="background: #ec4899;"></span>
-              <span class="card-dot" style="background: #8b5cf6;"></span>
-              <span class="card-dot" style="background: #09090b;"></span>
+          <div class="card-text-body">
+            <div class="card-palette-row">
+              <span class="palette-pip" style="background: #ff2d55;"></span>
+              <span class="palette-pip" style="background: #5856d6;"></span>
+              <span class="palette-pip" style="background: #09090b;"></span>
             </div>
-            <h4 class="card-title">Creator Pulse Radar</h4>
-            <p class="card-tagline">Algorithm Breaking Breakdowns</p>
-            <button type="button" class="card-action-btn">Test in Simulator &rarr;</button>
+            <h4 class="card-main-title">Creator Pulse Radar</h4>
+            <p class="card-sub-info">Algorithm Breaking Hooks &bull; 4 Slides</p>
+            <button type="button" class="btn-card-load" data-target-archetype="viral">Load in Studio &rarr;</button>
           </div>
         </div>
 
         <!-- Card 4 -->
-        <div class="template-card" data-cat="food" data-target-tpl="food">
-          <div class="card-poster" style="background-image: url('https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600&h=800&fit=crop');">
-            <div class="card-badges-row">
-              <span class="card-tag">FOOD & RECIPES</span>
-              <button type="button" class="card-fav-star" title="Favorite">
+        <div class="lookbook-item-card" data-cat="food" data-archetype="food">
+          <div class="card-cover-media" style="background-image: url('https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600&h=800&fit=crop');">
+            <div class="btn-card-preview-hover"><span>⚡ Experience 9:16</span></div>
+            <div class="card-top-controls">
+              <span class="card-category-tag">FOOD &amp; BAKERY</span>
+              <button type="button" class="card-star-button" title="Favorite">
                 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
               </button>
             </div>
           </div>
-          <div class="card-body">
-            <div class="card-dots">
-              <span class="card-dot" style="background: #f59e0b;"></span>
-              <span class="card-dot" style="background: #10b981;"></span>
-              <span class="card-dot" style="background: #1c1917;"></span>
+          <div class="card-text-body">
+            <div class="card-palette-row">
+              <span class="palette-pip" style="background: #ff9500;"></span>
+              <span class="palette-pip" style="background: #34c759;"></span>
+              <span class="palette-pip" style="background: #1c1917;"></span>
             </div>
-            <h4 class="card-title">Artisanal Botanical Bistro</h4>
-            <p class="card-tagline">Farm to Table Masterclasses</p>
-            <button type="button" class="card-action-btn">Test in Simulator &rarr;</button>
+            <h4 class="card-main-title">Botanical Bakery Bistro</h4>
+            <p class="card-sub-info">Sourdough Fermentation &bull; 4 Slides</p>
+            <button type="button" class="btn-card-load" data-target-archetype="food">Load in Studio &rarr;</button>
           </div>
         </div>
 
         <!-- Card 5 -->
-        <div class="template-card" data-cat="fitness" data-target-tpl="fitness">
-          <div class="card-poster" style="background-image: url('https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=600&h=800&fit=crop');">
-            <div class="card-badges-row">
-              <span class="card-tag">HEALTH & FITNESS</span>
-              <button type="button" class="card-fav-star" title="Favorite">
+        <div class="lookbook-item-card" data-cat="fitness" data-archetype="fitness">
+          <div class="card-cover-media" style="background-image: url('https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=600&h=800&fit=crop');">
+            <div class="btn-card-preview-hover"><span>⚡ Experience 9:16</span></div>
+            <div class="card-top-controls">
+              <span class="card-category-tag">HEALTH &amp; BIOFIT</span>
+              <button type="button" class="card-star-button" title="Favorite">
                 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
               </button>
             </div>
           </div>
-          <div class="card-body">
-            <div class="card-dots">
-              <span class="card-dot" style="background: #10b981;"></span>
-              <span class="card-dot" style="background: #06b6d4;"></span>
-              <span class="card-dot" style="background: #064e3b;"></span>
+          <div class="card-text-body">
+            <div class="card-palette-row">
+              <span class="palette-pip" style="background: #34c759;"></span>
+              <span class="palette-pip" style="background: #0284c7;"></span>
+              <span class="palette-pip" style="background: #064e3b;"></span>
             </div>
-            <h4 class="card-title">BioFit Peak Horizon</h4>
-            <p class="card-tagline">Zone 2 Metabolic Protocol</p>
-            <button type="button" class="card-action-btn">Test in Simulator &rarr;</button>
+            <h4 class="card-main-title">BioFit Peak Conditioning</h4>
+            <p class="card-sub-info">Zone 2 Metabolic Protocol &bull; 4 Slides</p>
+            <button type="button" class="btn-card-load" data-target-archetype="fitness">Load in Studio &rarr;</button>
           </div>
         </div>
 
         <!-- Card 6 -->
-        <div class="template-card" data-cat="travel" data-target-tpl="travel">
-          <div class="card-poster" style="background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600&h=800&fit=crop');">
-            <div class="card-badges-row">
-              <span class="card-tag">TRAVEL & EXPEDITIONS</span>
-              <button type="button" class="card-fav-star" title="Favorite">
+        <div class="lookbook-item-card" data-cat="travel" data-archetype="travel">
+          <div class="card-cover-media" style="background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600&h=800&fit=crop');">
+            <div class="btn-card-preview-hover"><span>⚡ Experience 9:16</span></div>
+            <div class="card-top-controls">
+              <span class="card-category-tag">EXPEDITIONS</span>
+              <button type="button" class="card-star-button" title="Favorite">
                 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
               </button>
             </div>
           </div>
-          <div class="card-body">
-            <div class="card-dots">
-              <span class="card-dot" style="background: #38bdf8;"></span>
-              <span class="card-dot" style="background: #818cf8;"></span>
-              <span class="card-dot" style="background: #0f172a;"></span>
+          <div class="card-text-body">
+            <div class="card-palette-row">
+              <span class="palette-pip" style="background: #0071e3;"></span>
+              <span class="palette-pip" style="background: #5856d6;"></span>
+              <span class="palette-pip" style="background: #0f172a;"></span>
             </div>
-            <h4 class="card-title">Wanderlust Expedition</h4>
-            <p class="card-tagline">Glacial Fjords of Patagonia</p>
-            <button type="button" class="card-action-btn">Test in Simulator &rarr;</button>
+            <h4 class="card-main-title">Wanderlust Glacial Fjords</h4>
+            <p class="card-sub-info">Patagonia Wilderness Expeditions &bull; 4 Slides</p>
+            <button type="button" class="btn-card-load" data-target-archetype="travel">Load in Studio &rarr;</button>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Google Web Stories Safe Zone Section -->
-  <section class="specs-section" id="safe-zones">
+  <!-- FAQ Section (Apple-Grade Interactive Accordion & Knowledge Base) -->
+  <section class="faq-section" id="faq">
     <div class="container">
-      <div class="section-header">
-        <span class="section-tag">Engineered for Google Discover</span>
-        <h2 class="section-title">Strict Safe Zone Enforcement</h2>
-        <p>Unlike generic page builders that ignore story UI boundaries, our templates guarantee zero text clipping across all mobile devices.</p>
+      <div class="section-head">
+        <span class="section-eyebrow">PUBLISHER KNOWLEDGE BASE</span>
+        <h2 class="section-headline">Frequently Asked <span class="vidyst-gradient-text">Questions</span></h2>
+        <p style="font-size: 16px; max-width: 680px; margin: 0 auto;">
+          Everything WordPress publishers, SEO specialists, and media creators need to know about Google Web Stories and Discover monetization.
+        </p>
       </div>
 
-      <div class="specs-grid">
-        <div class="spec-box">
-          <h3 style="font-size: 20px; margin-bottom: 8px;">Official Google Web Stories Specs</h3>
-          <p style="font-size: 13.5px; margin-bottom: 20px;">Strict conformance to Google AMP Story schema and design guidelines.</p>
+      <!-- FAQ Category Filter Pills -->
+      <div class="faq-filter-wrap" id="faqFilterTrack">
+        <button type="button" class="faq-filter-pill is-active" data-faq-filter="all">All Questions (8)</button>
+        <button type="button" class="faq-filter-pill" data-faq-filter="discover">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block; vertical-align:middle; margin-right:4px;"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/></svg>
+          <span>Google Discover</span>
+        </button>
+        <button type="button" class="faq-filter-pill" data-faq-filter="safezones">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block; vertical-align:middle; margin-right:4px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <span>Safe Zones &amp; AMP</span>
+        </button>
+        <button type="button" class="faq-filter-pill" data-faq-filter="wordpress">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block; vertical-align:middle; margin-right:4px;"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          <span>WordPress &amp; 1-Click</span>
+        </button>
+        <button type="button" class="faq-filter-pill" data-faq-filter="monetization">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block; vertical-align:middle; margin-right:4px;"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+          <span>Monetization &amp; GA4</span>
+        </button>
+      </div>
 
-          <table class="spec-table">
-            <thead>
-              <tr>
-                <th>Specification</th>
-                <th>Standard</th>
-                <th>Compliance</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Canvas Dimensions</td>
-                <td>1080 &times; 1920 px (9:16)</td>
-                <td><span class="spec-badge spec-badge-green">Strict 9:16</span></td>
-              </tr>
-              <tr>
-                <td>Top Safe Zone</td>
-                <td>220 px top margin</td>
-                <td><span class="spec-badge spec-badge-green">Clears Header</span></td>
-              </tr>
-              <tr>
-                <td>Bottom Safe Zone</td>
-                <td>250 px bottom margin</td>
-                <td><span class="spec-badge spec-badge-green">Clears CTA</span></td>
-              </tr>
-              <tr>
-                <td>Poster Crop Ratio</td>
-                <td>3:4 portrait (640 &times; 853 min)</td>
-                <td><span class="spec-badge spec-badge-green">960 &times; 1280 px</span></td>
-              </tr>
-              <tr>
-                <td>Publisher Icon</td>
-                <td>1:1 Square (96 &times; 96 min)</td>
-                <td><span class="spec-badge spec-badge-green">512 &times; 512 px</span></td>
-              </tr>
-              <tr>
-                <td>Character Density</td>
-                <td>&lt; 280 chars / slide</td>
-                <td><span class="spec-badge spec-badge-green">Enforced Live</span></td>
-              </tr>
-            </tbody>
-          </table>
+      <!-- FAQ Accordion List -->
+      <div class="faq-accordion-container" id="faqAccordion">
+        <!-- Item 1 (Open by default) -->
+        <div class="faq-item is-open" data-faq-cat="discover">
+          <button type="button" class="faq-header-btn" aria-expanded="true">
+            <div class="faq-title-group">
+              <span class="faq-meta-badge">GOOGLE DISCOVER</span>
+              <h3 class="faq-item-title">How do Google Web Stories drive organic traffic from Google Discover?</h3>
+            </div>
+            <div class="faq-toggle-circle">
+              <svg class="faq-plus-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg>
+            </div>
+          </button>
+          <div class="faq-collapse">
+            <div class="faq-collapse-inner">
+              <p class="faq-body-text">
+                Google Web Stories appear in dedicated high-visibility visual carousels across Google Discover feeds, mobile search results, and Google Images. Because they load instantly via the AMP framework and feature tap-friendly vertical slides, Google algorithms prioritize them for mobile readers, unlocking massive organic reach without ad spend.
+              </p>
+            </div>
+          </div>
         </div>
 
-        <div class="spec-box" style="display:flex; flex-direction:column; justify-content:center;">
-          <img src="assets/screenshot-2.png" alt="Safe Zone Simulator Screenshot" style="width:100%; border-radius:12px; border:1px solid var(--border-subtle); box-shadow: 0 10px 25px rgba(0,0,0,0.5);">
-          <div style="margin-top: 14px; text-align:center; font-size:12px; color:var(--text-dim);">
-            Live safe zone inspection showing real-time boundary clearance inside the WordPress studio.
+        <!-- Item 2 -->
+        <div class="faq-item" data-faq-cat="safezones">
+          <button type="button" class="faq-header-btn" aria-expanded="false">
+            <div class="faq-title-group">
+              <span class="faq-meta-badge">SAFE ZONES ARCHITECTURE</span>
+              <h3 class="faq-item-title">What are Web Story safe zones and why are they critical?</h3>
+            </div>
+            <div class="faq-toggle-circle">
+              <svg class="faq-plus-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg>
+            </div>
+          </button>
+          <div class="faq-collapse">
+            <div class="faq-collapse-inner">
+              <p class="faq-body-text">
+                Google's Web Stories player overlays native UI elements on top of each story: the top 220px holds the progress bar, publisher logo, and close buttons, while the bottom 250px holds swipe-up CTA links and gesture navigation. Our templates strictly confine headings, readable text, and tap targets to the central safe viewport, preventing Google Discover penalties and UI clipping.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="faq-item" data-faq-cat="wordpress">
+          <button type="button" class="faq-header-btn" aria-expanded="false">
+            <div class="faq-title-group">
+              <span class="faq-meta-badge">1-CLICK DISTILLER</span>
+              <h3 class="faq-item-title">Can I convert existing WordPress blog articles into Web Stories?</h3>
+            </div>
+            <div class="faq-toggle-circle">
+              <svg class="faq-plus-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg>
+            </div>
+          </button>
+          <div class="faq-collapse">
+            <div class="faq-collapse-inner">
+              <p class="faq-body-text">
+                Yes. Web Stories Templates Studio features a 1-Click Blog Distiller that scans any published WordPress post, extracts key headings, summarizes core points into a 4-slide visual narrative, selects vertical imagery, and generates a canonical swipe-up outlink back to your original article.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="faq-item" data-faq-cat="wordpress">
+          <button type="button" class="faq-header-btn" aria-expanded="false">
+            <div class="faq-title-group">
+              <span class="faq-meta-badge">ZERO-BLOAT ARCHITECTURE</span>
+              <h3 class="faq-item-title">Does this plugin require Google's official Web Stories editor?</h3>
+            </div>
+            <div class="faq-toggle-circle">
+              <svg class="faq-plus-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg>
+            </div>
+          </button>
+          <div class="faq-collapse">
+            <div class="faq-collapse-inner">
+              <p class="faq-body-text">
+                No. The plugin operates in dual mode: you can create, customize, and publish 100% AMP-valid stories directly inside the lightweight Studio interface with zero dependencies, or link seamlessly with Google's official Web Stories React editor for granular layer control.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="faq-item" data-faq-cat="safezones">
+          <button type="button" class="faq-header-btn" aria-expanded="false">
+            <div class="faq-title-group">
+              <span class="faq-meta-badge">AMP VALIDATION</span>
+              <h3 class="faq-item-title">Are the generated Web Stories 100% AMP compliant and Core Web Vitals optimized?</h3>
+            </div>
+            <div class="faq-toggle-circle">
+              <svg class="faq-plus-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg>
+            </div>
+          </button>
+          <div class="faq-collapse">
+            <div class="faq-collapse-inner">
+              <p class="faq-body-text">
+                Yes. Every template generates clean, valid AMP HTML that passes Google's AMP Test with zero JavaScript errors, zero layout shifts (CLS 0), and instant paint times (LCP &lt; 1.2s), ensuring full eligibility for Google search indexing.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 6 -->
+        <div class="faq-item" data-faq-cat="monetization">
+          <button type="button" class="faq-header-btn" aria-expanded="false">
+            <div class="faq-title-group">
+              <span class="faq-meta-badge">MONETIZATION</span>
+              <h3 class="faq-item-title">Can I monetize Web Stories with Google AdSense or affiliate links?</h3>
+            </div>
+            <div class="faq-toggle-circle">
+              <svg class="faq-plus-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg>
+            </div>
+          </button>
+          <div class="faq-collapse">
+            <div class="faq-collapse-inner">
+              <p class="faq-body-text">
+                Yes. The plugin includes native support for Google AdSense auto-story ads (ca-pub configuration), custom outlink swipe-up call-to-actions on every slide, and Google Analytics / GA4 tracking tags.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 7 -->
+        <div class="faq-item" data-faq-cat="discover">
+          <button type="button" class="faq-header-btn" aria-expanded="false">
+            <div class="faq-title-group">
+              <span class="faq-meta-badge">DISCOVER ALGORITHM</span>
+              <h3 class="faq-item-title">How does Google Discover select which Web Stories to feature on mobile feeds?</h3>
+            </div>
+            <div class="faq-toggle-circle">
+              <svg class="faq-plus-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg>
+            </div>
+          </button>
+          <div class="faq-collapse">
+            <div class="faq-collapse-inner">
+              <p class="faq-body-text">
+                Google Discover uses interest modeling based on user search history and topic affinity. Stories with high-contrast vertical covers (at least 640×853px), engaging first-slide hooks, high completion rates (enabled by our safe-zone templates), and zero layout shifts are up to 8x more likely to be featured in the Google Discover carousel.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 8 -->
+        <div class="faq-item" data-faq-cat="monetization">
+          <button type="button" class="faq-header-btn" aria-expanded="false">
+            <div class="faq-title-group">
+              <span class="faq-meta-badge">ANALYTICS &amp; GA4</span>
+              <h3 class="faq-item-title">Can I add Google Analytics (GA4) and custom tracking events?</h3>
+            </div>
+            <div class="faq-toggle-circle">
+              <svg class="faq-plus-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg>
+            </div>
+          </button>
+          <div class="faq-collapse">
+            <div class="faq-collapse-inner">
+              <p class="faq-body-text">
+                Yes. Web Stories Templates Studio includes built-in GA4 integration. It automatically tracks slide-by-slide view progress, story completions, swipe-up link clicks, and time-on-story dwell metrics directly into your Google Analytics dashboard.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Powerhouse Features Section -->
-  <section class="features-section" id="features">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-tag">Architecture</span>
-        <h2 class="section-title">Built for Modern WordPress Creators</h2>
-        <p>From 1-click blog-to-story conversion to ambient audio studios, everything you need to dominate Google Discover.</p>
-      </div>
-
-      <div class="features-grid">
-        <div class="feature-card">
-          <div class="feature-icon-box">⚡</div>
-          <h3>1-Click Blog-to-Story Distiller</h3>
-          <p>Converts any published WordPress article into a punchy 4-slide AMP Web Story with key takeaways and swipe-up attribution outlink.</p>
-        </div>
-
-        <div class="feature-card">
-          <div class="feature-icon-box">🎨</div>
-          <h3>Unified Typography & Brand Harmony</h3>
-          <p>Access 60+ Google Font families, custom font URLs, fluid headline sliders, and 1-click color palette synchronization across every slide.</p>
-        </div>
-
-        <div class="feature-card">
-          <div class="feature-icon-box">🎵</div>
-          <h3>Ambient Background Audio</h3>
-          <p>Built-in royalty-free ambient audio loops (Lo-Fi Chill, Cinematic Pulse, Electronic Anthem) and custom MP3 soundtrack support.</p>
-        </div>
-
-        <div class="feature-card">
-          <div class="feature-icon-box">📱</div>
-          <h3>Standalone & Official Plugin Sync</h3>
-          <p>Works 100% standalone with native AMP HTML runtime, or integrates directly with Google's official Web Stories React editor.</p>
-        </div>
-
-        <div class="feature-card">
-          <div class="feature-icon-box">🧩</div>
-          <h3>Embed Shortcode Player</h3>
-          <p>Embed responsive story cards directly into any WordPress blog post, page, or widget with <code>[sick_web_story id="123"]</code>.</p>
-        </div>
-
-        <div class="feature-card">
-          <div class="feature-icon-box">📸</div>
-          <h3>Social Story Slices Exporter</h3>
-          <p>Render each slide to offscreen 1080&times;1920 vertical canvas and download high-res PNG images for Instagram Stories and TikTok.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Visual Tour Gallery -->
-  <section class="catalog-section" style="background: rgba(15, 23, 42, 0.4); border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle);">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-tag">WordPress Admin UI</span>
-        <h2 class="section-title">Pixel-Perfect Liquid Design System</h2>
-        <p>Quiet luxury aesthetics with dark frosted-glass badges, Apple-style segmented tabs, and zero clutter.</p>
-      </div>
-
-      <div style="display:grid; grid-template-columns: repeat(2, 1fr); gap: 24px;">
-        <div>
-          <img src="assets/screenshot-1.png" alt="Template Studio Catalog" style="width:100%; border-radius:14px; border:1px solid var(--border-subtle); box-shadow:0 12px 30px rgba(0,0,0,0.5);">
-          <div style="margin-top: 10px; font-weight:600; font-size:13px; color:#ffffff;">1. Template Studio Catalog & Quick Filter Bar</div>
-        </div>
-        <div>
-          <img src="assets/screenshot-3.png" alt="Typography Studio" style="width:100%; border-radius:14px; border:1px solid var(--border-subtle); box-shadow:0 12px 30px rgba(0,0,0,0.5);">
-          <div style="margin-top: 10px; font-weight:600; font-size:13px; color:#ffffff;">2. Unified Typography & Brand Harmonizer</div>
-        </div>
-        <div>
-          <img src="assets/screenshot-4.png" alt="Auto-Create Story Modal" style="width:100%; border-radius:14px; border:1px solid var(--border-subtle); box-shadow:0 12px 30px rgba(0,0,0,0.5);">
-          <div style="margin-top: 10px; font-weight:600; font-size:13px; color:#ffffff;">3. Auto-Create Story from Blog Post Distiller</div>
-        </div>
-        <div>
-          <img src="assets/screenshot-2.png" alt="Live Phone Simulator" style="width:100%; border-radius:14px; border:1px solid var(--border-subtle); box-shadow:0 12px 30px rgba(0,0,0,0.5);">
-          <div style="margin-top: 10px; font-weight:600; font-size:13px; color:#ffffff;">4. Real-time Safe Zone Visual Inspector</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Installation Section -->
+  <!-- Installation Terminal Section -->
   <section class="install-section" id="install">
     <div class="container">
-      <div class="install-box">
-        <span class="section-tag">Quick Start</span>
-        <h2 style="font-size: 32px; margin-bottom: 12px;">Install in Seconds</h2>
-        <p style="font-size: 15px; max-width: 600px; margin: 0 auto;">Download the distribution zip and upload directly into your WordPress dashboard, or clone via Git.</p>
+      <div class="section-head">
+        <span class="section-eyebrow">WORDPRESS DEPLOYMENT</span>
+        <h2 class="section-headline">Install in Under 60 Seconds</h2>
+        <p style="font-size: 15.5px; max-width: 600px; margin: 0 auto;">
+          Clone directly into your WordPress plugins directory or upload the distribution archive from your admin panel. Compatible with WordPress 5.8+ and PHP 7.4 through PHP 8.3.
+        </p>
+      </div>
 
-        <div class="cli-code-block">
-          <span id="cliCommandText">git clone https://github.com/ursishant/web-stories-templates-studio.git</span>
-          <button type="button" id="btnCopyCli" class="btn-copy-cli">Copy Command</button>
+      <div class="macos-terminal-window">
+        <div class="macos-titlebar">
+          <div class="macos-traffic-lights">
+            <div class="light-dot light-red"></div>
+            <div class="light-dot light-yellow"></div>
+            <div class="light-dot light-green"></div>
+          </div>
+
+          <div class="terminal-source-tabs">
+            <button type="button" class="terminal-tab active" data-cmd="git">git clone</button>
+            <button type="button" class="terminal-tab" data-cmd="wp">wp-cli</button>
+            <button type="button" class="terminal-tab" data-cmd="zip">zip download</button>
+          </div>
         </div>
 
-        <div style="display:flex; justify-content:center; gap:16px; flex-wrap:wrap;">
-          <a href="https://github.com/ursishant/web-stories-templates-studio/releases/download/v1.3.6/web-stories-templates.zip" class="btn-primary btn-lg">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
-            <span>Download web-stories-templates.zip</span>
-          </a>
-          <a href="https://github.com/ursishant/web-stories-templates-studio" target="_blank" rel="noopener" class="btn-secondary btn-lg">
-            <span>View GitHub Repository</span>
-          </a>
+        <div class="macos-body">
+          <div class="terminal-code-row">
+            <span id="cliCodeText">git clone https://github.com/ursishant/web-stories-templates-studio.git wp-content/plugins/web-stories-templates</span>
+            <button type="button" id="btnCopyTerminal" class="btn-terminal-copy">Copy</button>
+          </div>
         </div>
+      </div>
+
+      <div style="display:flex; justify-content:center; gap:16px; margin-top:36px; flex-wrap:wrap;">
+        <a href="https://github.com/ursishant/web-stories-templates-studio/releases/download/v1.3.6/web-stories-templates.zip" class="btn-hero-blue">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+          <span>Download web-stories-templates.zip</span>
+        </a>
+        <a href="https://github.com/ursishant/web-stories-templates-studio" target="_blank" rel="noopener" class="btn-hero-subtle">
+          <span>Star on GitHub</span>
+        </a>
       </div>
     </div>
   </section>
 
-  <!-- Footer -->
+  <!-- Site Footer -->
   <footer class="site-footer">
-    <div class="container footer-grid">
+    <div class="container footer-flex">
       <div>
-        <div style="font-weight:700; color:#ffffff; font-size:15px; margin-bottom:4px;">Web Stories Templates Studio</div>
-        <p style="font-size: 12.5px; color: var(--text-dim);">
+        <div style="display:flex; align-items:center; gap:9px; margin-bottom:5px;">
+          <img src="assets/default-logo.svg" alt="Web Stories Studio Logo" class="brand-logo-img" style="width:24px; height:24px; border-radius:6px;">
+          <span style="font-family:var(--font-display); font-weight:700; color:var(--text-primary); font-size:15px;">
+            Web Stories Templates Studio
+          </span>
+        </div>
+        <p style="font-size:12.5px; color:var(--text-secondary);">
           Open source under GNU General Public License v2 (GPLv2).
         </p>
       </div>
 
-      <div class="footer-links">
+      <nav class="footer-menu">
         <a href="https://github.com/ursishant/web-stories-templates-studio" target="_blank" rel="noopener">GitHub</a>
         <a href="https://github.com/ursishant/web-stories-templates-studio/releases" target="_blank" rel="noopener">Releases</a>
         <a href="https://github.com/ursishant/web-stories-templates-studio/issues" target="_blank" rel="noopener">Issues</a>
         <a href="https://pennion.com" target="_blank" rel="noopener">pennion</a>
-      </div>
+      </nav>
 
-      <div style="font-size: 12px; color: var(--text-dim);">
-        Crafted with ❤️ by <a href="https://pennion.com" style="color:var(--accent-cyan);">pennion</a> &amp; <a href="https://github.com/ursishant" style="color:#ffffff;">ursishant</a>
+      <div style="font-size:12.5px; color:var(--text-secondary);">
+        Crafted with precision by <a href="https://pennion.com" target="_blank" rel="noopener" style="color:var(--accent-apple); font-weight:600;">pennion</a> &amp; <a href="https://github.com/ursishant" target="_blank" rel="noopener" style="color:var(--text-primary); font-weight:600;">ursishant</a>
       </div>
     </div>
   </footer>
 
+  <!-- Fullscreen Immersive 9:16 Story Viewer -->
+  <div class="immersive-story-modal" id="immersiveStoryModal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Immersive Web Story Preview">
+    <div class="immersive-backdrop" id="immersiveBackdrop"></div>
+    <div class="immersive-content-wrap">
+      <!-- Top Utility Header -->
+      <div class="immersive-top-bar">
+        <div class="immersive-brand-badge">
+          <img src="assets/default-logo.svg" alt="Logo" class="immersive-brand-icon">
+          <span class="immersive-brand-title" id="immPubTitle">Silicon Frontier Media</span>
+          <span class="immersive-slide-counter" id="immSlideCounter">1 / 4</span>
+        </div>
+        <div class="immersive-controls">
+          <label class="immersive-sz-toggle" title="Toggle Google Safe Zone Bounds">
+            <span class="immersive-sz-label">Safe Zones</span>
+            <input type="checkbox" id="immLaserToggle" checked>
+            <span class="imm-toggle-knob"></span>
+          </label>
+          <button type="button" class="btn-close-immersive" id="btnCloseImmersive" aria-label="Close immersive preview">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Centered 9:16 Stage -->
+      <div class="immersive-phone-stage" id="immersiveStage">
+        <div class="immersive-phone-frame">
+          <div class="dynamic-island" style="width: 76px; height: 18px;"></div>
+          <div class="immersive-story-screen" id="immPhoneScreen" style="background: linear-gradient(160deg, #090d16 0%, #1e1b4b 45%, #0284c7 100%), url('https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=600&h=1000&fit=crop&q=80') center/cover;">
+            <!-- Story Progress Segments -->
+            <div class="story-bars-top" id="immStoryBars">
+              <div class="story-bar-segment" data-index="0"><div class="story-bar-fill"></div></div>
+              <div class="story-bar-segment" data-index="1"><div class="story-bar-fill"></div></div>
+              <div class="story-bar-segment" data-index="2"><div class="story-bar-fill"></div></div>
+              <div class="story-bar-segment" data-index="3"><div class="story-bar-fill"></div></div>
+            </div>
+
+            <!-- Safe Zone Bounds Laser -->
+            <div class="safe-zone-laser is-active" id="immLaserGuide">
+              <div class="sz-top-box">220PX GOOGLE UI SAFE ZONE</div>
+              <div class="sz-bottom-box">250PX NAVIGATION SAFE ZONE</div>
+            </div>
+
+            <!-- Story Body Stage -->
+            <div class="story-body-stage">
+              <span class="story-badge-pill" id="immStoryBadge">DEEP TECH // 2026</span>
+              <h3 class="story-headline-text" id="immStoryHeading" style="font-size: 22px;">Sub-1nm Quantum Processors Now Reality</h3>
+              <p class="story-narrative-copy" id="immStoryBody" style="font-size: 13px;">Researchers accomplish breakthrough room-temperature gate control in diamond defect wafers.</p>
+              <div class="story-cta-capsule" id="immStoryCta">
+                <span class="cta-pulse-dot"></span>
+                <span id="immCtaText">Explore Architecture</span>
+                <span>&rarr;</span>
+              </div>
+            </div>
+
+            <!-- Pause Pill -->
+            <div class="story-pause-pill" id="immPauseIndicator">❚❚ PAUSED</div>
+
+            <!-- Left / Right Tap Zones -->
+            <div class="story-tap-zone left-tap" id="immTapLeft" title="Previous Slide"></div>
+            <div class="story-tap-zone right-tap" id="immTapRight" title="Next Slide"></div>
+          </div>
+        </div>
+
+        <!-- Navigation Arrows Beside Phone -->
+        <button type="button" class="imm-nav-arrow prev" id="immBtnPrev" aria-label="Previous slide">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <button type="button" class="imm-nav-arrow next" id="immBtnNext" aria-label="Next slide">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg>
+        </button>
+      </div>
+
+      <!-- Bottom Status & Action Bar -->
+      <div class="immersive-bottom-bar">
+        <div class="imm-shortcuts-hint">
+          <span>Tap sides or use <kbd>&larr;</kbd> <kbd>&rarr;</kbd> keys</span>
+          <span>&bull;</span>
+          <span>Hold to pause</span>
+        </div>
+        <a href="https://github.com/ursishant/web-stories-templates-studio/releases/download/v1.3.6/web-stories-templates.zip" class="btn-vidyst-dark" style="height: 40px; padding: 0 18px; font-size: 13px;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+          <span>Download Plugin (.ZIP)</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- GSAP & ScrollTrigger Animation Engine -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
